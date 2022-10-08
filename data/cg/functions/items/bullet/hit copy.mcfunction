@@ -1,0 +1,3 @@
+execute if entity @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1,type=!minecraft:pillager] unless score @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run function cg:items/bullet/damage
+execute if entity @e[dx=0.2,dy=0.2,dz=0.2,sort=nearest,limit=1,type=minecraft:pillager] unless entity @s[tag=cg.bul.frompillager] run function cg:items/bullet/damage
+kill @s

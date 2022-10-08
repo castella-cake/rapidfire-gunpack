@@ -1,0 +1,7 @@
+execute if entity @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1] unless score @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run tag @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1] add cg.hit
+execute as @e[tag=cg.hit,sort=nearest,limit=1] run scoreboard players operation @s cg.bul_pn.temp = @e[sort=nearest,limit=1,type=armor_stand,tag=cg.bul] cg.bul_pn
+execute as @e[tag=cg.hit,sort=nearest,limit=1] unless score @s cg.player_number = @s cg.bul_pn.temp run scoreboard players operation @s cg.bul_hittype.temp = @e[sort=nearest,limit=1,type=armor_stand,tag=cg.bul] cg.bul_hittype
+execute if entity @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1] unless score @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run kill @s
+execute as @e[tag=cg.hit,sort=nearest,limit=1] unless score @s cg.player_number = @s cg.bul_pn.temp run function cg:items/bullet/damage
+#tellraw @a "a"
+execute if entity @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1] unless score @e[dx=0.2,dy=0.2,dz=0.2,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run scoreboard players set @s cg.bul_is_disabled 1

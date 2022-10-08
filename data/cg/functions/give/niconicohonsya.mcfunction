@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Niconico Honsya","color":"#ff0000","bold":true,"italic":false}'},CustomModelData:2} 1

@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{Charged:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:10s}]}"
+    }
+  ]
+  

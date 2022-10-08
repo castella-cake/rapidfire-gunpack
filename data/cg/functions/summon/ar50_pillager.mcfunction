@@ -1,0 +1,1 @@
+summon pillager ~ ~ ~ {Tags:["cg.pillager.ar50"],HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{display:{Name:'{"text":"AR50","color":"gold","bold":true,"italic":false}'},CustomModelData:25,ChargedProjectiles:[{id:"minecraft:air",Count:1b},{},{}],Charged:1b}},{}]}

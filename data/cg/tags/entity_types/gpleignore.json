@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:arrow",
+        "minecraft:marker",
+        "minecraft:area_effect_cloud",
+        "minecraft:armor_stand",
+        "minecraft:glow_item_frame",
+        "minecraft:item_frame"
+    ]
+}

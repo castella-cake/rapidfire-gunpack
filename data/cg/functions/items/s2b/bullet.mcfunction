@@ -1,0 +1,10 @@
+tp @s ^ ^ ^1.85 ~ ~0.2
+
+execute as @e[type=armor_stand,tag=cg.bul.s2b] at @s positioned ~-0.4 ~ ~-0.4 unless score @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn at @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] positioned ~-1.25 ~1.75 ~-1.25 unless entity @e[tag=cg.bul.s2b,dx=2.05,dy=1,dz=2.05] run scoreboard players set @s cg.bul_hittype 1
+execute as @e[type=armor_stand,tag=cg.bul.s2b] at @s positioned ~-0.4 ~ ~-0.4 unless score @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn at @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] positioned ~-1.25 ~1.75 ~-1.25 if entity @e[tag=cg.bul.s2b,dx=2.05,dy=1,dz=2.05] run scoreboard players set @s cg.bul_hittype 2
+
+execute as @e[type=armor_stand,tag=cg.bul.s2b] at @s positioned ~-0.4 ~ ~-0.4 unless score @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] at @s positioned ~-1.25 ~1.75 ~-1.25 unless entity @e[tag=cg.bul.s2b,dx=2.05,dy=1,dz=2.05] run scoreboard players add @s cg.s2b.dmg 1
+execute as @e[type=armor_stand,tag=cg.bul.s2b] at @s positioned ~-0.4 ~ ~-0.4 unless score @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] at @s positioned ~-1.25 ~1.75 ~-1.25 if entity @e[tag=cg.bul.s2b,dx=2.05,dy=1,dz=2.05] run scoreboard players add @s cg.s2b.dmg_c 1
+execute as @e[type=armor_stand,tag=cg.bul.s2b] at @s positioned ~-0.4 ~ ~-0.4 unless score @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] at @s run scoreboard players operation @s cg.dmgdisp_sgpntemp = @e[tag=cg.bul.s2b,distance=..2,sort=nearest,limit=1] cg.bul_pn
+
+execute as @e[type=armor_stand,tag=cg.bul.s2b] at @s positioned ~-0.4 ~ ~-0.4 unless score @e[dx=0.8,dy=0.8,dz=0.8,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run kill @s

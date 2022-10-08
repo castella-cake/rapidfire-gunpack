@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"Niconico Honsya\",\"color\":\"#ff0000\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

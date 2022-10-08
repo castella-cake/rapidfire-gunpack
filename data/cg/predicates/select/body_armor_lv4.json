@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "chest": {
+          "items": [
+            "minecraft:netherite_chestplate"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"Body Armor Lv4\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

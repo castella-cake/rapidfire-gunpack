@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "chest": {
+          "items": [
+            "minecraft:golden_chestplate"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"Body Armor LvEX\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

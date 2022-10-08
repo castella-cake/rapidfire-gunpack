@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"QuickRound\",\"color\":\"blue\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

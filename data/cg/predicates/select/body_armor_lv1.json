@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "chest": {
+          "items": [
+            "minecraft:chainmail_chestplate"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"Body Armor Lv1\",\"color\":\"gray\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

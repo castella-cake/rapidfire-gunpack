@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "chest": {
+          "items": [
+            "minecraft:diamond_chestplate"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"Body Armor Lv3\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

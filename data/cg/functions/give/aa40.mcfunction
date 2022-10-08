@@ -1,0 +1,2 @@
+give @s crossbow{display:{Name:'{"text":"A-a40","color":"gold","bold":true,"italic":false}'},CustomModelData:5,Charged:1b} 1
+kill @e[distance=..3,type=item,nbt={Item:{tag:{display:{Name:'{"text":"A-a40","color":"gold","bold":true,"italic":false}'}}}}]

@@ -1,0 +1,1 @@
+playsound entity.warden.sonic_boom master @a[distance=..30] ~ ~ ~ 1 1.2 0.1

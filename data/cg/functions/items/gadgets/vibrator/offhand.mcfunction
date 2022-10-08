@@ -1,0 +1,3 @@
+execute if predicate cg:select/offhand_vibrator if predicate cg:select/air if score @s cg.vibrator.ammo matches 100.. run tag @s add cg.vibrator.ult
+execute if predicate cg:select/offhand_vibrator if predicate cg:select/air run item replace entity @s weapon.offhand with air
+execute if predicate cg:select/air run item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{display:{Name:'{"text":"Vibrator","color":"white","bold":true,"italic":false}'},CustomModelData:3}

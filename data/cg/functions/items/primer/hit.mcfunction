@@ -1,0 +1,12 @@
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run particle block redstone_block ~ ~ ~ 0 0 0 1 5
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run execute if score @s cg.bul_hittype matches 2 run particle block redstone_block ~ ~ ~ 0 0 0 1 30
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] if entity @s[predicate=cg:select/body_armor_lv1] at @s run function cg:items/armor/gun_damage
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] if entity @s[predicate=cg:select/body_armor_lv2] at @s run function cg:items/armor/gun_damage
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] if entity @s[predicate=cg:select/body_armor_lv3] at @s run function cg:items/armor/gun_damage
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] if entity @s[predicate=cg:select/body_armor_lv4] at @s run function cg:items/armor/gun_damage
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] if entity @s[predicate=cg:select/body_armor_lvex] at @s run function cg:items/armor/gun_damage
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] run function cg:items/armor/gun_damage
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run function cg:items/dmgdisplay_legacy
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn as @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] run function score_damage:api/attack
+execute unless score @e[dx=1,dy=1,dz=1,type=!#cg:ignore,sort=nearest,limit=1] cg.player_number = @s cg.bul_pn run data remove storage score_damage: Argument
+kill @s

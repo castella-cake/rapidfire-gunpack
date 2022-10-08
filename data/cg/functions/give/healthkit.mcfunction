@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Health Kit","color":"white","bold":true,"italic":false}'},CustomModelData:1} 1

@@ -1,0 +1,7 @@
+execute as @s[predicate=cg:select/hammershot,scores={cg.sneak=1..},tag=cg.hammershot.ads,tag=!cg.hammershot.attachment.scope.holo] run attribute @s generic.movement_speed base set 0.08
+execute as @s[predicate=cg:select/hammershot,scores={cg.sneak=1..},tag=cg.hammershot.ads,tag=cg.hammershot.attachment.scope.holo] run attribute @s generic.movement_speed base set 0.025
+execute as @s[scores={cg.sneak=..0},tag=cg.hammershot.ads] at @s run playsound item.armor.equip_iron master @a ~ ~ ~ 0.25 2 0
+execute as @s[scores={cg.sneak=..0},tag=cg.hammershot.ads] run attribute @s generic.movement_speed base set 0.1
+execute as @s[predicate=cg:select/hammershot,scores={cg.sneak=..0},tag=cg.hammershot.ads,tag=!cg.hammershot.attachment.scope.holo] run item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"HammerShot","color":"dark_red","bold":true,"italic":false}'},CustomModelData:15,Charged:1b}
+execute as @s[predicate=cg:select/hammershot,scores={cg.sneak=..0},tag=cg.hammershot.ads,tag=cg.hammershot.attachment.scope.holo] run item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"text":"HammerShot","color":"dark_red","bold":true,"italic":false}'},CustomModelData:17,Charged:1b}
+execute as @s[scores={cg.sneak=..0},tag=cg.hammershot.ads] run tag @s remove cg.hammershot.ads

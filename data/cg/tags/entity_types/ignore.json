@@ -1,0 +1,21 @@
+{
+    "values": [
+        "minecraft:item",
+        "minecraft:experience_orb",
+        "minecraft:experience_bottle",
+        "minecraft:arrow",
+        "minecraft:trident",
+        "minecraft:egg",
+        "minecraft:fireball",
+        "minecraft:firework_rocket",
+        "minecraft:potion",
+        "minecraft:marker",
+        "minecraft:painting",
+        "minecraft:small_fireball",
+        "minecraft:tnt",
+        "minecraft:area_effect_cloud",
+        "minecraft:armor_stand",
+        "minecraft:glow_item_frame",
+        "minecraft:item_frame"
+    ]
+}

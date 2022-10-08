@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Vibrator","color":"white","bold":true,"italic":false}'},CustomModelData:3} 1

@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"LMR\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,1 @@
+summon pillager ~ ~ ~ {Tags:["cg.pillager.fp5"],HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{display:{Name:'{"text":"FP5","color":"blue","bold":true,"italic":false}'},CustomModelData:1,ChargedProjectiles:[{id:"minecraft:air",Count:1b},{},{}],Charged:1b}},{}]}

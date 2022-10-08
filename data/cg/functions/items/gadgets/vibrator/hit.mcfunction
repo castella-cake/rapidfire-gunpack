@@ -1,0 +1,2 @@
+execute if entity @e[distance=..5,type=!#cg:ignore] run scoreboard players operation @e[distance=..5,type=!#cg:ignore] cg.bul_pn.temp = @s cg.bul_pn
+execute as @e[distance=..5,type=!#cg:ignore] unless score @s cg.player_number = @s cg.bul_pn.temp run function cg:items/gadgets/vibrator/damage

@@ -1,0 +1,1 @@
+summon pillager ~ ~ ~ {Tags:["cg.pillager.quickround"],HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{display:{Name:'{"text":"QuickRound","color":"blue","bold":true,"italic":false}'},CustomModelData:8,ChargedProjectiles:[{id:"minecraft:air",Count:1b},{},{}],Charged:1b}},{}]}

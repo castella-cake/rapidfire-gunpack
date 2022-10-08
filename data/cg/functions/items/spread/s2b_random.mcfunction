@@ -1,0 +1,39 @@
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~1.0 ~
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~1.0 ~
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~1.0 ~
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~2.0 ~
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~2.0 ~
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~2.0 ~
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~3.0 ~
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~3.0 ~
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~3.0 ~
+
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-1.0 ~
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-1.0 ~
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-1.0 ~
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-2.0 ~
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-2.0 ~
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-2.0 ~
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-3.0 ~
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-3.0 ~
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~-3.0 ~
+
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~1.0
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~1.0
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~1.0
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~2.0
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~2.0
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~2.0
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~3.0
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~3.0
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~3.0
+
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-1.0
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-1.0
+execute if predicate cg:random/0_3 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-1.0
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-2.0
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-2.0
+execute if predicate cg:random/0_1 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-2.0
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-3.0
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-3.0
+execute if predicate cg:random/under0_1/0_05 as @e[tag=cg.bul.s2b,tag=!cg.ready,distance=..2,sort=nearest,limit=1] at @s run tp @s ^ ^ ^ ~ ~-3.0

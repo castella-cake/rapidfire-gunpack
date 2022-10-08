@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"SAG18\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  
