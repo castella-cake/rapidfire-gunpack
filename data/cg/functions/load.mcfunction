@@ -2,7 +2,9 @@
 
 data modify storage cg:static prefix set value '[{"text":""},{"text":"[RF:GunPack] ","bold":true}]'
 
-tellraw @a [{"text":"RapidFire GunPack ","bold":true},{"text":"Season 0 Beta 1 season0beta1-beta1.6","color":"gray","italic": true},{"text":" ベータ版 \n","color":"yellow","bold":false},{"text":"\n使用しているライブラリー:\n"},{"text":"ScoreToHealth","clickEvent":{"action":"open_url","value":"https://github.com/Ai-Akaishi/ScoreToHealth"},"bold":true,"underlined":true},{"text":" - Created by Ai-Akaishi / Apache 2.0 License\n","bold":false,"color":"gray"},{"text":"MCCMD-ScoreDamage","clickEvent":{"action":"open_url","value":"https://github.com/ChenCMD/MCCMD-ScoreDamage"},"bold":true,"underlined":true},{"text":" - Created by ChenCMD / CC0-1.0 License\n","bold":false,"color":"gray"},{"text":"FloatCalc","clickEvent":{"action":"open_url","value":"https://github.com/txkodo/FloatCalc"},"bold":true,"underlined":true},{"text":" - Created by txkodo / MIT License\n","bold":false,"color":"gray"}]
+tellraw @a [{"text":"-----------------------------------------------------"}]
+tellraw @a [{"text":"RapidFire GunPack ","bold":true},{"text":"Season 0 Beta 1 s0b1-dev1.0g","color":"gray","italic": true},{"text":" Git移行開発版 \n","color":"red","bold":false}]
+tellraw @a [{"text":"使用しているライブラリー:\n"},{"text":"ScoreToHealth","clickEvent":{"action":"open_url","value":"https://github.com/Ai-Akaishi/ScoreToHealth"},"bold":true,"underlined":true},{"text":" - Created by Ai-Akaishi / Apache 2.0 License\n","bold":false,"color":"gray"},{"text":"MCCMD-ScoreDamage","clickEvent":{"action":"open_url","value":"https://github.com/ChenCMD/MCCMD-ScoreDamage"},"bold":true,"underlined":true},{"text":" - Created by ChenCMD / CC0-1.0 License\n","bold":false,"color":"gray"},{"text":"FloatCalc","clickEvent":{"action":"open_url","value":"https://github.com/txkodo/FloatCalc"},"bold":true,"underlined":true},{"text":" - Created by txkodo / MIT License\n","bold":false,"color":"gray"}]
 tellraw @a [{"nbt":"prefix","storage":"cg:static","interpret":true},{"text":"インストール中..."}]
 # CYakiGun Player
 scoreboard objectives add cg.sneak minecraft.custom:sneak_time
@@ -226,3 +228,5 @@ data modify storage cg:actionbar text set value '[{"text":""}]'
 
 tellraw @a [{"nbt":"prefix","storage":"cg:static","interpret":true},{"text":"コンフィグの作成が完了しました。"}]
 #tellraw @a [{"nbt":"prefix","storage":"cg:static","interpret":true},{"text":"データパックの連携を確認します..."}]
+
+tellraw @a [{"text":"-----------------------------------------------------"}]
