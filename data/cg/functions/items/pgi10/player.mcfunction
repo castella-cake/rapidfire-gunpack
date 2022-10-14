@@ -6,7 +6,7 @@
 # battery = 4
 scoreboard players set @s cg.current_ammo 1
 
-execute if score @s cg.use matches 1.. if score @s cg.pgi10.ammo matches 1.. unless score @s cg.pgi10.burst matches 2.. run scoreboard players set @s cg.pgi10.burst 5
+execute if score @s cg.use matches 1.. if score @s cg.pgi10.ammo matches 1.. unless score @s cg.pgi10.burst matches 3.. run scoreboard players set @s cg.pgi10.burst 5
 
 execute if score @s cg.pgi10.burst matches 1.. if score @s cg.pgi10.ammo matches 1.. if entity @s[tag=!cg.pgi10.reload] run summon armor_stand ^ ^ ^ {Tags:["cg.bul.pgi10","cg.bul","cg.bul_type.smg","cg.bul_ammo.sml"],Marker:1b,Small:1b,Invisible:1b}
 execute if score @s cg.pgi10.burst matches 1.. if score @s cg.pgi10.ammo matches 1.. if entity @s[tag=!cg.pgi10.reload] run function cg:shot_am
