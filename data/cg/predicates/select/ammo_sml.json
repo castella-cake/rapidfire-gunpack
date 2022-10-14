@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ],
+          "nbt": "{display:{Name:'{\"text\":\"小口径の弾薬箱(x64)\",\"color\":\"white\",\"bold\":true,\"italic\":false}'}}"
+        }
+      }
+    }
+  }
+  

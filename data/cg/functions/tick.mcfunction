@@ -139,6 +139,8 @@ execute as @a[predicate=cg:select/body_armor_lv4] at @s run function cg:items/ar
 execute as @a[predicate=cg:select/body_armor_lvex] at @s run function cg:items/armor/lvex
 execute as @a[scores={cg.armor.damage_taken=1..}] run scoreboard players reset @s cg.armor.damage_taken
 
+function cg:craft/tick
+execute as @a[predicate=cg:select/ammo_sml,scores={cg.use_gadget=1}] at @s run function cg:items/ammo_sml
 
 #execute store result score $bullet_all cg.bullet_count if entity @e[tag=cg.bul]
 #execute store result score $bullet_paper cg.bullet_count if entity @e[tag=cg.bul.paper]
