@@ -16,8 +16,7 @@ execute if entity @s[tag=cg.pb21.reload] if score @s cg.pb21.burst matches 1.. r
 execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. if score @s cg.pb21.ammo matches 1.. run summon armor_stand ^ ^ ^ {Tags:["cg.bul.pb21","cg.bul","cg.bul_type.ar","cg.bul_ammo.mid"],Marker:1b,Small:1b,Invisible:1b}
 execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. if score @s cg.pb21.ammo matches 1.. run function cg:shot_am
 execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. if score @s cg.pb21.ammo matches 1.. run function cg:items/pb21/se_shot
-execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. if score @s cg.pb21.ammo matches 1.. if entity @s[tag=!cg.pb21.ads] run tp @s ~ ~ ~ ~ ~-2.8
-execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. if score @s cg.pb21.ammo matches 1.. run tp @s ~ ~ ~ ~ ~-1.2
+execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. if score @s cg.pb21.ammo matches 1.. run function cg:items/recoil/pb21
 execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. if score @s cg.pb21.ammo matches 1.. anchored eyes run particle block gold_block ^-0.2 ^ ^1 0 0 0 1 1
 execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. if score @s cg.pb21.ammo matches 1.. run scoreboard players remove @s cg.pb21.ammo 1
 execute if score @s cg.pb21.burst matches 1.. unless score @s cg.pb21.delay matches 1.. unless score @s cg.pb21.ammo matches 1.. run tag @s add cg.pb21.reload
