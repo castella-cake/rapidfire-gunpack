@@ -202,8 +202,8 @@ scoreboard objectives add cg.pb21.mode dummy
 scoreboard objectives add cg.pb21.burst_delay dummy
 scoreboard objectives add cg.pb21.delay dummy
 scoreboard objectives add cg.pb21.rld_timer dummy
-data modify storage cg.damage_data pb21.normal set value {Damage:1.80}
-data modify storage cg.damage_data pb21.headshot set value {Damage:2.80}
+data modify storage cg.damage_data pb21.normal set value {Damage:1.95}
+data modify storage cg.damage_data pb21.headshot set value {Damage:3.20}
 
 tellraw @a [{"nbt":"prefix","storage":"cg:static","interpret":true},{"text":"ベースをインストールしました。"}]
 
